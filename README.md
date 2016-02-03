@@ -1,36 +1,21 @@
-# word-guess
+#Word Guess
 
-FIXME: description
+Game consisting on guessing a word after its characters have been shuffled.
 
-## Installation
+Shuffled words are randomly picked from a file containing 5000 words.
 
-Download from http://example.com/FIXME.
+The player has to correctly guess 3 words and at the end the time it took to guess is displayed.
+
+## Requirements
+
+Leiningen
 
 ## Usage
 
-FIXME: explanation
+###Run Application
 
-    $ java -jar word-guess-0.1.0-standalone.jar [args]
+lein run
 
-## Options
+###Running test(s)
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+lein test
